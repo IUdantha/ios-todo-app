@@ -3,6 +3,6 @@ This simple application provides a brief introduction to how the Swift programmi
 
 ## UI samples
 
-![App Demo](images/view")
-![App Demo](images/select")
-![App Demo](images/add")
+![App Demo](images/view.png)
+![App Demo](images/select.png)
+![App Demo](images/add.png)
