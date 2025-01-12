@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4851E4932D33B36800104689 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4851E4922D33B36800104689 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4851E4542D32D5B600104689 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,24 +31,12 @@
 		4851E43D2D32D5B400104689 /* CRUDApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUDApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4851E4532D32D5B600104689 /* CRUDAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRUDAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4851E45D2D32D5B600104689 /* CRUDAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRUDAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4851E4922D33B36800104689 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		4851E4652D32D5B600104689 /* Exceptions for "CRUDApp" folder in "CRUDApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 4851E43C2D32D5B400104689 /* CRUDApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4851E43F2D32D5B400104689 /* CRUDApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				4851E4652D32D5B600104689 /* Exceptions for "CRUDApp" folder in "CRUDApp" target */,
-			);
 			path = CRUDApp;
 			sourceTree = "<group>";
 		};
@@ -56,6 +48,11 @@
 		4851E4602D32D5B600104689 /* CRUDAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CRUDAppUITests;
+			sourceTree = "<group>";
+		};
+		4851E4942D33B44800104689 /* images */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,6 +85,8 @@
 		4851E4342D32D5B400104689 = {
 			isa = PBXGroup;
 			children = (
+				4851E4942D33B44800104689 /* images */,
+				4851E4922D33B36800104689 /* README.md */,
 				4851E43F2D32D5B400104689 /* CRUDApp */,
 				4851E4562D32D5B600104689 /* CRUDAppTests */,
 				4851E4602D32D5B600104689 /* CRUDAppUITests */,
@@ -122,6 +121,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				4851E43F2D32D5B400104689 /* CRUDApp */,
+				4851E4942D33B44800104689 /* images */,
 			);
 			name = CRUDApp;
 			packageProductDependencies = (
@@ -225,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4851E4932D33B36800104689 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
